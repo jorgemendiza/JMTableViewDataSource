@@ -17,14 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This is for easy and fast TableViewDataSource implentation. When we need change the Cell in our tableview we always have to change the metods in TableViewDataSource, I wrote this implementation for that cases.
                        DESC
 
   s.homepage         = 'https://github.com/jorgemendiza/JMTableViewDataSource'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jorge Mendizabal' => 'jorgemendiza@me.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/JMTableViewDataSource.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/jorgemendiza/JMTableViewDataSource.git', :tag => s.version.to_s }
   s.social_media_url = 'https://facebook.com/jorgemendiza'
   s.ios.deployment_target = '9.0'
 

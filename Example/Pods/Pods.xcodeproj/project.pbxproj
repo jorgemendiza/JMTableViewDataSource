@@ -12,10 +12,11 @@
 		4E608E0DF1CC979163575649452BC9A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		582B412EA9AFF9D5D7C22864B535B9F7 /* Pods-JMTableViewDataSource_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 361C19E54A86F7E98F6A9567CBB98A66 /* Pods-JMTableViewDataSource_Tests-dummy.m */; };
 		66937772128B73D34E6525855CD1C913 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7041D0C61DECBEF300D6762E /* JMTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041D0C51DECBEF300D6762E /* JMTableViewDataSource.swift */; };
+		7041D0C71DECBEF300D6762E /* JMTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041D0C51DECBEF300D6762E /* JMTableViewDataSource.swift */; };
 		888E10BF1EC9839107F0DBE7C7CCF12A /* JMTableViewDataSource-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C16BDA821E94E13D07294D7167603C7F /* JMTableViewDataSource-dummy.m */; };
 		9891184F997317900BA94D2EED5BA3BD /* Pods-JMTableViewDataSource_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 799D40162CF4BCBE0237DB9845576A13 /* Pods-JMTableViewDataSource_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B294A1B6AA56D10EE04834F367991D4B /* JMTableViewDataSource-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 512C1A3D0D7BFAA0239169161E9853B4 /* JMTableViewDataSource-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BED64B0A2C1BA34ECE13A948E6D29256 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8420DA47E2C89B5613335ED779F65D9B /* ReplaceMe.swift */; };
 		F3F28FCFB44BB9F4171D77B59D663E29 /* Pods-JMTableViewDataSource_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1920939810CE63F2ACB6178BEF0F094C /* Pods-JMTableViewDataSource_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -49,9 +50,9 @@
 		5E0F5B579D2FC67B21BF6CD0C3A9F82C /* Pods-JMTableViewDataSource_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMTableViewDataSource_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		67DB9629CD2D0CC85133DF07FF035C1D /* Pods-JMTableViewDataSource_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JMTableViewDataSource_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6C303D877756A0FC789AA4D723BFD528 /* Pods-JMTableViewDataSource_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JMTableViewDataSource_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7041D0C51DECBEF300D6762E /* JMTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMTableViewDataSource.swift; sourceTree = "<group>"; };
 		799D40162CF4BCBE0237DB9845576A13 /* Pods-JMTableViewDataSource_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JMTableViewDataSource_Example-umbrella.h"; sourceTree = "<group>"; };
 		7AAB7CD7D34538C0ACB543E6A1137843 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8420DA47E2C89B5613335ED779F65D9B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		887EE82CFBEF1B5A8B17BBB5D7FF87E2 /* Pods-JMTableViewDataSource_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMTableViewDataSource_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9182BA357BA85E90D57631582FC59EB7 /* Pods-JMTableViewDataSource_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMTableViewDataSource_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -199,7 +200,7 @@
 		D66CB4AF535181C376051572783C3D6B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8420DA47E2C89B5613335ED779F65D9B /* ReplaceMe.swift */,
+				7041D0C51DECBEF300D6762E /* JMTableViewDataSource.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -346,7 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				888E10BF1EC9839107F0DBE7C7CCF12A /* JMTableViewDataSource-dummy.m in Sources */,
-				BED64B0A2C1BA34ECE13A948E6D29256 /* ReplaceMe.swift in Sources */,
+				7041D0C61DECBEF300D6762E /* JMTableViewDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7041D0C71DECBEF300D6762E /* JMTableViewDataSource.swift in Sources */,
 				F3F28FCFB44BB9F4171D77B59D663E29 /* Pods-JMTableViewDataSource_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9182BA357BA85E90D57631582FC59EB7 /* Pods-JMTableViewDataSource_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -538,6 +541,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 887EE82CFBEF1B5A8B17BBB5D7FF87E2 /* Pods-JMTableViewDataSource_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
