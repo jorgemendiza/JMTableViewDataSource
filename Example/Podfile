@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JMTableViewDataSource_Example' do
+  pod 'JMTableViewDataSource', :path => '../'
+
+  target 'JMTableViewDataSource_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
