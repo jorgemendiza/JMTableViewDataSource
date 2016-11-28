@@ -1,0 +1,6 @@
+framework module Pods_JMTableViewDataSource_Tests {
+  umbrella header "Pods-JMTableViewDataSource_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

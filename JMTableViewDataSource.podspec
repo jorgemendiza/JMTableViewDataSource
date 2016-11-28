@@ -8,27 +8,25 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JMTableViewDataSource'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of JMTableViewDataSource.'
+  s.version          = '1.0.0'
+  s.summary          = 'A implementation of UITableViewDataSource with closure and protocol'
 
 # This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
+#   * Think: This is for easy and fast TableViewDataSource implentation. When we need change the Cell in our tableview we always have to change the metods in TableViewDataSource, I wrote this implementation for that cases.
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/JMTableViewDataSource'
+  s.homepage         = 'https://github.com/jorgemendiza/JMTableViewDataSource'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jorge Mendizabal' => 'jorgemendiza@me.com' }
   s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/JMTableViewDataSource.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
+  s.social_media_url = 'https://facebook.com/jorgemendiza'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'JMTableViewDataSource/Classes/**/*'
   

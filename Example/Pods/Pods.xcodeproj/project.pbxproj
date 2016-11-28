@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23253C22EFC81432138319374C11E61B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		3F449521E0B8E61041C6063FAA4839C9 /* Pods-JMTableViewDataSource_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 542E2B0CD34933602D46852460AA23CE /* Pods-JMTableViewDataSource_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E608E0DF1CC979163575649452BC9A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		582B412EA9AFF9D5D7C22864B535B9F7 /* Pods-JMTableViewDataSource_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 361C19E54A86F7E98F6A9567CBB98A66 /* Pods-JMTableViewDataSource_Tests-dummy.m */; };
+		66937772128B73D34E6525855CD1C913 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		888E10BF1EC9839107F0DBE7C7CCF12A /* JMTableViewDataSource-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C16BDA821E94E13D07294D7167603C7F /* JMTableViewDataSource-dummy.m */; };
+		9891184F997317900BA94D2EED5BA3BD /* Pods-JMTableViewDataSource_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 799D40162CF4BCBE0237DB9845576A13 /* Pods-JMTableViewDataSource_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B294A1B6AA56D10EE04834F367991D4B /* JMTableViewDataSource-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 512C1A3D0D7BFAA0239169161E9853B4 /* JMTableViewDataSource-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BED64B0A2C1BA34ECE13A948E6D29256 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8420DA47E2C89B5613335ED779F65D9B /* ReplaceMe.swift */; };
+		F3F28FCFB44BB9F4171D77B59D663E29 /* Pods-JMTableViewDataSource_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1920939810CE63F2ACB6178BEF0F094C /* Pods-JMTableViewDataSource_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73C1B71C6AE7427EFDBE27735D25671A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68169C2DB5C3465AFA37487EBE59CB82;
+			remoteInfo = JMTableViewDataSource;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0671034451939E56A67867F690520C98 /* JMTableViewDataSource.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JMTableViewDataSource.modulemap; sourceTree = "<group>"; };
+		0BDD52001EDC6A5EF1C2529D00416396 /* Pods-JMTableViewDataSource_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMTableViewDataSource_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0D30FEAF1F42F78195E64E38CC125C60 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1920939810CE63F2ACB6178BEF0F094C /* Pods-JMTableViewDataSource_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JMTableViewDataSource_Example-dummy.m"; sourceTree = "<group>"; };
+		1A585EDA4536F6F381C78B08E0EF72F2 /* Pods-JMTableViewDataSource_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMTableViewDataSource_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		26C3894F689F510E5B6439125BB8F190 /* Pods-JMTableViewDataSource_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JMTableViewDataSource_Example.modulemap"; sourceTree = "<group>"; };
+		361C19E54A86F7E98F6A9567CBB98A66 /* Pods-JMTableViewDataSource_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JMTableViewDataSource_Tests-dummy.m"; sourceTree = "<group>"; };
+		367F8C9175B24F148194BFEEBC756F60 /* Pods-JMTableViewDataSource_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMTableViewDataSource_Tests-resources.sh"; sourceTree = "<group>"; };
+		39F7D3544F90068DAAE7050D163200D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C99BA7231BA0DE1E8D81DBCEB3E004C /* JMTableViewDataSource.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JMTableViewDataSource.xcconfig; sourceTree = "<group>"; };
+		4E6C82DE67B4E049FE17D348231C86CD /* Pods_JMTableViewDataSource_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMTableViewDataSource_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E7BEB74D6CAC0BDA39F51EE715DF18 /* Pods-JMTableViewDataSource_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JMTableViewDataSource_Tests.modulemap"; sourceTree = "<group>"; };
+		512C1A3D0D7BFAA0239169161E9853B4 /* JMTableViewDataSource-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMTableViewDataSource-umbrella.h"; sourceTree = "<group>"; };
+		542E2B0CD34933602D46852460AA23CE /* Pods-JMTableViewDataSource_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JMTableViewDataSource_Tests-umbrella.h"; sourceTree = "<group>"; };
+		54E058FA706C2EED5CC5FB25EA04CE8D /* Pods_JMTableViewDataSource_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMTableViewDataSource_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57FD60C8EEE30DBBE6C9327CEAB55EAF /* JMTableViewDataSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JMTableViewDataSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E0F5B579D2FC67B21BF6CD0C3A9F82C /* Pods-JMTableViewDataSource_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMTableViewDataSource_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		67DB9629CD2D0CC85133DF07FF035C1D /* Pods-JMTableViewDataSource_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JMTableViewDataSource_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6C303D877756A0FC789AA4D723BFD528 /* Pods-JMTableViewDataSource_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JMTableViewDataSource_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		799D40162CF4BCBE0237DB9845576A13 /* Pods-JMTableViewDataSource_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JMTableViewDataSource_Example-umbrella.h"; sourceTree = "<group>"; };
+		7AAB7CD7D34538C0ACB543E6A1137843 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8420DA47E2C89B5613335ED779F65D9B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		887EE82CFBEF1B5A8B17BBB5D7FF87E2 /* Pods-JMTableViewDataSource_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMTableViewDataSource_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9182BA357BA85E90D57631582FC59EB7 /* Pods-JMTableViewDataSource_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMTableViewDataSource_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ACA9029992840824DE31DFA031C8711E /* Pods-JMTableViewDataSource_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JMTableViewDataSource_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C16BDA821E94E13D07294D7167603C7F /* JMTableViewDataSource-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JMTableViewDataSource-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DC101D64BD32F84BE201141AD39E2141 /* JMTableViewDataSource-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMTableViewDataSource-prefix.pch"; sourceTree = "<group>"; };
+		E7955253EC4395A0A9BD6251E4444A9D /* Pods-JMTableViewDataSource_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMTableViewDataSource_Example-resources.sh"; sourceTree = "<group>"; };
+		F1C38D61E7F0172C70118D496C8DA6C8 /* Pods-JMTableViewDataSource_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JMTableViewDataSource_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FCD32163B546D2E7ECD09085EF96BD66 /* Pods-JMTableViewDataSource_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMTableViewDataSource_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B035459F85DD998DC13D396546D97F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E608E0DF1CC979163575649452BC9A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9D06FFA2495BA2A7CE878771F94BCEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23253C22EFC81432138319374C11E61B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6593EA565C239DADF3A0E4576BFD97E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66937772128B73D34E6525855CD1C913 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05D834039F8438636B619E37C8E04714 /* JMTableViewDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				35AF404E568B2E56D076E96035AF7775 /* JMTableViewDataSource */,
+				6816C7ED13E89AE184836E3A9BB021FC /* Support Files */,
+			);
+			name = JMTableViewDataSource;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1234FE61EEA23525E13744DC3C9FB443 /* Pods-JMTableViewDataSource_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0D30FEAF1F42F78195E64E38CC125C60 /* Info.plist */,
+				26C3894F689F510E5B6439125BB8F190 /* Pods-JMTableViewDataSource_Example.modulemap */,
+				67DB9629CD2D0CC85133DF07FF035C1D /* Pods-JMTableViewDataSource_Example-acknowledgements.markdown */,
+				F1C38D61E7F0172C70118D496C8DA6C8 /* Pods-JMTableViewDataSource_Example-acknowledgements.plist */,
+				1920939810CE63F2ACB6178BEF0F094C /* Pods-JMTableViewDataSource_Example-dummy.m */,
+				0BDD52001EDC6A5EF1C2529D00416396 /* Pods-JMTableViewDataSource_Example-frameworks.sh */,
+				E7955253EC4395A0A9BD6251E4444A9D /* Pods-JMTableViewDataSource_Example-resources.sh */,
+				799D40162CF4BCBE0237DB9845576A13 /* Pods-JMTableViewDataSource_Example-umbrella.h */,
+				9182BA357BA85E90D57631582FC59EB7 /* Pods-JMTableViewDataSource_Example.debug.xcconfig */,
+				887EE82CFBEF1B5A8B17BBB5D7FF87E2 /* Pods-JMTableViewDataSource_Example.release.xcconfig */,
+			);
+			name = "Pods-JMTableViewDataSource_Example";
+			path = "Target Support Files/Pods-JMTableViewDataSource_Example";
+			sourceTree = "<group>";
+		};
+		1850D67BB90860DC24A75EF601FF70F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1234FE61EEA23525E13744DC3C9FB443 /* Pods-JMTableViewDataSource_Example */,
+				F0BB55483CF9BB7C30F61A4A458C207B /* Pods-JMTableViewDataSource_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		35AF404E568B2E56D076E96035AF7775 /* JMTableViewDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				D66CB4AF535181C376051572783C3D6B /* Classes */,
+			);
+			path = JMTableViewDataSource;
+			sourceTree = "<group>";
+		};
+		4D3A6C45D14F03BC2D89936755341CD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57FD60C8EEE30DBBE6C9327CEAB55EAF /* JMTableViewDataSource.framework */,
+				4E6C82DE67B4E049FE17D348231C86CD /* Pods_JMTableViewDataSource_Example.framework */,
+				54E058FA706C2EED5CC5FB25EA04CE8D /* Pods_JMTableViewDataSource_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6816C7ED13E89AE184836E3A9BB021FC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AAB7CD7D34538C0ACB543E6A1137843 /* Info.plist */,
+				0671034451939E56A67867F690520C98 /* JMTableViewDataSource.modulemap */,
+				3C99BA7231BA0DE1E8D81DBCEB3E004C /* JMTableViewDataSource.xcconfig */,
+				C16BDA821E94E13D07294D7167603C7F /* JMTableViewDataSource-dummy.m */,
+				DC101D64BD32F84BE201141AD39E2141 /* JMTableViewDataSource-prefix.pch */,
+				512C1A3D0D7BFAA0239169161E9853B4 /* JMTableViewDataSource-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JMTableViewDataSource";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				836A9E45D84304923DB30D21886D78B9 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4D3A6C45D14F03BC2D89936755341CD7 /* Products */,
+				1850D67BB90860DC24A75EF601FF70F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		836A9E45D84304923DB30D21886D78B9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05D834039F8438636B619E37C8E04714 /* JMTableViewDataSource */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D66CB4AF535181C376051572783C3D6B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8420DA47E2C89B5613335ED779F65D9B /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F0BB55483CF9BB7C30F61A4A458C207B /* Pods-JMTableViewDataSource_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				39F7D3544F90068DAAE7050D163200D1 /* Info.plist */,
+				50E7BEB74D6CAC0BDA39F51EE715DF18 /* Pods-JMTableViewDataSource_Tests.modulemap */,
+				6C303D877756A0FC789AA4D723BFD528 /* Pods-JMTableViewDataSource_Tests-acknowledgements.markdown */,
+				ACA9029992840824DE31DFA031C8711E /* Pods-JMTableViewDataSource_Tests-acknowledgements.plist */,
+				361C19E54A86F7E98F6A9567CBB98A66 /* Pods-JMTableViewDataSource_Tests-dummy.m */,
+				5E0F5B579D2FC67B21BF6CD0C3A9F82C /* Pods-JMTableViewDataSource_Tests-frameworks.sh */,
+				367F8C9175B24F148194BFEEBC756F60 /* Pods-JMTableViewDataSource_Tests-resources.sh */,
+				542E2B0CD34933602D46852460AA23CE /* Pods-JMTableViewDataSource_Tests-umbrella.h */,
+				FCD32163B546D2E7ECD09085EF96BD66 /* Pods-JMTableViewDataSource_Tests.debug.xcconfig */,
+				1A585EDA4536F6F381C78B08E0EF72F2 /* Pods-JMTableViewDataSource_Tests.release.xcconfig */,
+			);
+			name = "Pods-JMTableViewDataSource_Tests";
+			path = "Target Support Files/Pods-JMTableViewDataSource_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		37BC6B56569991228A2C3D9B214BBC28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9891184F997317900BA94D2EED5BA3BD /* Pods-JMTableViewDataSource_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93203768E4EB32CED70C69B4B205BA29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B294A1B6AA56D10EE04834F367991D4B /* JMTableViewDataSource-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5DDE94CA1A6011E959118AB6AFE8C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F449521E0B8E61041C6063FAA4839C9 /* Pods-JMTableViewDataSource_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		232EF6B2AD3EF7EFCA0570093CE75C49 /* Pods-JMTableViewDataSource_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497CE727986ECFE4F6223AD7B8739838 /* Build configuration list for PBXNativeTarget "Pods-JMTableViewDataSource_Tests" */;
+			buildPhases = (
+				E4884A56D69D0671B193482971F516B1 /* Sources */,
+				5B035459F85DD998DC13D396546D97F6 /* Frameworks */,
+				9B5DDE94CA1A6011E959118AB6AFE8C0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JMTableViewDataSource_Tests";
+			productName = "Pods-JMTableViewDataSource_Tests";
+			productReference = 54E058FA706C2EED5CC5FB25EA04CE8D /* Pods_JMTableViewDataSource_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		68169C2DB5C3465AFA37487EBE59CB82 /* JMTableViewDataSource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BEAAA8F1B7AE5D9B068A746373657B7 /* Build configuration list for PBXNativeTarget "JMTableViewDataSource" */;
+			buildPhases = (
+				33D2ADC0EE37B0F4EFC41ABF182DD4F0 /* Sources */,
+				E6593EA565C239DADF3A0E4576BFD97E /* Frameworks */,
+				93203768E4EB32CED70C69B4B205BA29 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JMTableViewDataSource;
+			productName = JMTableViewDataSource;
+			productReference = 57FD60C8EEE30DBBE6C9327CEAB55EAF /* JMTableViewDataSource.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB47E0E7FD93090A5064A7F65BDF6994 /* Pods-JMTableViewDataSource_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17AC594A0F236B610ED6F506A50B1933 /* Build configuration list for PBXNativeTarget "Pods-JMTableViewDataSource_Example" */;
+			buildPhases = (
+				A6A6FD5FD51048D36834D15120FC89AE /* Sources */,
+				C9D06FFA2495BA2A7CE878771F94BCEC /* Frameworks */,
+				37BC6B56569991228A2C3D9B214BBC28 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C03C284EDC879CB41774D041D003A72 /* PBXTargetDependency */,
+			);
+			name = "Pods-JMTableViewDataSource_Example";
+			productName = "Pods-JMTableViewDataSource_Example";
+			productReference = 4E6C82DE67B4E049FE17D348231C86CD /* Pods_JMTableViewDataSource_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					68169C2DB5C3465AFA37487EBE59CB82 = {
+						LastSwiftMigration = 0810;
+					};
+					EB47E0E7FD93090A5064A7F65BDF6994 = {
+						LastSwiftMigration = 0810;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4D3A6C45D14F03BC2D89936755341CD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68169C2DB5C3465AFA37487EBE59CB82 /* JMTableViewDataSource */,
+				EB47E0E7FD93090A5064A7F65BDF6994 /* Pods-JMTableViewDataSource_Example */,
+				232EF6B2AD3EF7EFCA0570093CE75C49 /* Pods-JMTableViewDataSource_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33D2ADC0EE37B0F4EFC41ABF182DD4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888E10BF1EC9839107F0DBE7C7CCF12A /* JMTableViewDataSource-dummy.m in Sources */,
+				BED64B0A2C1BA34ECE13A948E6D29256 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A6FD5FD51048D36834D15120FC89AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F28FCFB44BB9F4171D77B59D663E29 /* Pods-JMTableViewDataSource_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4884A56D69D0671B193482971F516B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582B412EA9AFF9D5D7C22864B535B9F7 /* Pods-JMTableViewDataSource_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C03C284EDC879CB41774D041D003A72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JMTableViewDataSource;
+			target = 68169C2DB5C3465AFA37487EBE59CB82 /* JMTableViewDataSource */;
+			targetProxy = 73C1B71C6AE7427EFDBE27735D25671A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01B1C32321466FFF296F6D4BF3005796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCD32163B546D2E7ECD09085EF96BD66 /* Pods-JMTableViewDataSource_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JMTableViewDataSource_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JMTableViewDataSource_Tests/Pods-JMTableViewDataSource_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JMTableViewDataSource_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0202033FE91893D172E508A782FDAB50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9182BA357BA85E90D57631582FC59EB7 /* Pods-JMTableViewDataSource_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JMTableViewDataSource_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JMTableViewDataSource_Example/Pods-JMTableViewDataSource_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JMTableViewDataSource_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C1A9F2740614BC15BAB0FD56B48A2CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 887EE82CFBEF1B5A8B17BBB5D7FF87E2 /* Pods-JMTableViewDataSource_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JMTableViewDataSource_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JMTableViewDataSource_Example/Pods-JMTableViewDataSource_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JMTableViewDataSource_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D40F04BA21F3340E11BEE1EEAAEA6808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C99BA7231BA0DE1E8D81DBCEB3E004C /* JMTableViewDataSource.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JMTableViewDataSource/JMTableViewDataSource-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JMTableViewDataSource/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JMTableViewDataSource/JMTableViewDataSource.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JMTableViewDataSource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D9C2C4327B09ED53BA20DA40800A3C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C99BA7231BA0DE1E8D81DBCEB3E004C /* JMTableViewDataSource.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JMTableViewDataSource/JMTableViewDataSource-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JMTableViewDataSource/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JMTableViewDataSource/JMTableViewDataSource.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JMTableViewDataSource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E60F6FC4439765226BD573D07F27EF06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A585EDA4536F6F381C78B08E0EF72F2 /* Pods-JMTableViewDataSource_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JMTableViewDataSource_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JMTableViewDataSource_Tests/Pods-JMTableViewDataSource_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JMTableViewDataSource_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17AC594A0F236B610ED6F506A50B1933 /* Build configuration list for PBXNativeTarget "Pods-JMTableViewDataSource_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0202033FE91893D172E508A782FDAB50 /* Debug */,
+				C1A9F2740614BC15BAB0FD56B48A2CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		497CE727986ECFE4F6223AD7B8739838 /* Build configuration list for PBXNativeTarget "Pods-JMTableViewDataSource_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B1C32321466FFF296F6D4BF3005796 /* Debug */,
+				E60F6FC4439765226BD573D07F27EF06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BEAAA8F1B7AE5D9B068A746373657B7 /* Build configuration list for PBXNativeTarget "JMTableViewDataSource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C2C4327B09ED53BA20DA40800A3C5F /* Debug */,
+				D40F04BA21F3340E11BEE1EEAAEA6808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

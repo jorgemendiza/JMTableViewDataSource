@@ -1,0 +1,6 @@
+framework module JMTableViewDataSource {
+  umbrella header "JMTableViewDataSource-umbrella.h"
+
+  export *
+  module * { export * }
+}
