@@ -1,9 +1,8 @@
 //
 //  BPTableViewDataSource.swift
-//  Body Pass
 //
-//  Created by Jorge Mendizabal on 11/2/16.
-//  Copyright © 2016 Circulo Gourmet Jorge Mendizabal. All rights reserved.
+//  Created by Jorge Mendizabal on 11/10/16.
+//  Copyright © 2016 Jorge Mendizabal. All rights reserved.
 //
 
 import UIKit
