@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JMTableViewDataSource'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A implementation of UITableViewDataSource with closure and protocol'
 
 # This description is used to generate tags and improve search results.
