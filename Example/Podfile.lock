@@ -1,5 +1,5 @@
 PODS:
-  - JMTableViewDataSource (0.1.0)
+  - JMTableViewDataSource (1.0.1)
 
 DEPENDENCIES:
   - JMTableViewDataSource (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  JMTableViewDataSource: f9fda858f83a1ade91a922868e2a824b407ea525
+  JMTableViewDataSource: f3725459fb4552b80f098d513be81ec14c837e4b
 
 PODFILE CHECKSUM: 4501763c3d7737bd6788bc7e9c23743e8a005783
 

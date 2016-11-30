@@ -1,5 +1,5 @@
 //
-//  BPTableViewDataSource.swift
+//  JMTableViewDataSource.swift
 //
 //  Created by Jorge Mendizabal on 11/10/16.
 //  Copyright © 2016 Jorge Mendizabal. All rights reserved.
@@ -10,7 +10,7 @@ import UIKit
 typealias Object = AnyObject
 
 protocol ConfigureCellProtocol {
-    func configureCell(object: Object)
+    func configureCell(_ object: Object)
 }
 
 class JMTableViewDataSource: NSObject, UITableViewDataSource {
@@ -34,7 +34,7 @@ class JMTableViewDataSource: NSObject, UITableViewDataSource {
             print("cell not implements -ConfigureCellProtocol-")
             return UITableViewCell()
         }
-        cell.configureCell(object: items[indexPath.row])
+        cell.configureCell(items[indexPath.row])
         return cell as! UITableViewCell
     }
     
