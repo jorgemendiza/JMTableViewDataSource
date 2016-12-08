@@ -7,28 +7,28 @@
 
 import UIKit
 
-typealias Object = AnyObject
+public typealias Object = Any
 
-protocol ConfigureCellProtocol {
+public protocol ConfigureCellProtocol: class {
     func configureCell(_ object: Object)
 }
 
-class JMTableViewDataSource: NSObject, UITableViewDataSource {
+public class JMTableViewDataSource: NSObject, UITableViewDataSource {
     
-    var items: [Object]
-    let cellIdentifier: String
+    public var items: [Object]
+    public let cellIdentifier: String
     
-    init(with items: [Object], cellIdentifier: String){
+    public init(with items: [Object], cellIdentifier: String){
         self.cellIdentifier = cellIdentifier
         self.items = items
         super.init()
     }
     
-    func numberOfSections(in tableView: UITableView) -> Int {
+    public func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier) as? ConfigureCellProtocol else {
             print("cell not implements -ConfigureCellProtocol-")
@@ -38,7 +38,7 @@ class JMTableViewDataSource: NSObject, UITableViewDataSource {
         return cell as! UITableViewCell
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return items.count
     }
 }
